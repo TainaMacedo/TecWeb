@@ -1,0 +1,160 @@
+/** Cabeçalho */
+
+header {
+	background-color: steelblue;
+	color: white;
+	border-bottom:  2px solid black;
+	padding-bottom: 20px;
+}
+
+.superior {
+	display: flex;
+	height: 100%;
+	min-height: 100%;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+/** Navegação */
+
+.navegacao > ul > li {
+	display: inline;
+}
+
+.navegacao > ul {
+	list-style: none;
+	padding:0px;
+    margin:0px;
+	text-align: center;
+}
+
+.navegacao > ul > li > a{
+	padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    text-decoration: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.navegacao > ul > li:hover {
+	background-color:red;
+}
+
+.navegacao > ul > li:active {
+	background-color:green
+}
+
+/** Seção 1 */
+.secao1 > p {
+	font-family: Times New Roman;
+	font-size: 14px;
+}
+
+.posic_text1 {
+	display: flex;
+}
+
+.posic_text2e3 {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.posic_text1 > img {
+	margin-right: 10px;
+}
+
+.posic_text2e3 > img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/** Seção 2 */
+
+.secao2 > ol {
+	list-style: none;
+}
+
+.secao2 > ol > li {
+	background-color: grey;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline;
+	padding: 2px 10px;
+}	 
+.secao2 > ul {
+	list-style: none;
+}
+
+.secao2 > ul > li {
+	background-color: steelblue;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	display: inline;
+	padding: 2px 10px;
+}	 
+
+.secao2 > ol > li:hover {
+	background-color:green;
+	color: red;
+}
+
+.secao2 > ul > li:hover {
+	background-color: red;
+	color: green;
+}
+
+/** Seção 3 */
+
+label {
+	font-weight: bold;
+	display: inline-block;
+    width: 120px;
+	margin-bottom: 10px
+}
+
+input:hover {
+	background-color: limegreen;
+	
+}
+
+/** Seção 4 */
+
+table {
+	border: black;
+    border-spacing: 0px;
+    text-align: center;
+	margin-right:auto; 
+	margin-left:auto;
+}
+
+thead {
+	background-color: black;
+	color: white;
+}
+
+tbody {
+	background-color: grey;
+	color: black;
+	font-weight: bold;
+}
+
+footer {
+	background-color: grey;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
